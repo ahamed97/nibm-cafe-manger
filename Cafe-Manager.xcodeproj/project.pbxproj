@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7241716263C83C600A4A96B /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7241715263C83C600A4A96B /* ResetViewController.swift */; };
 		D7363F94263AC37E00513C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7363F93263AC37E00513C1B /* AppDelegate.swift */; };
 		D7363F96263AC37E00513C1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7363F95263AC37E00513C1B /* SceneDelegate.swift */; };
 		D7363F98263AC37E00513C1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7363F97263AC37E00513C1B /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		D7363FA0263AC38000513C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7363F9E263AC38000513C1B /* LaunchScreen.storyboard */; };
 		D7363FAB263AC5D400513C1B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7363FAA263AC5D400513C1B /* LoginViewController.swift */; };
 		D7363FAD263AC5EC00513C1B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7363FAC263AC5EC00513C1B /* RegisterViewController.swift */; };
-		D7363FB1263AF13200513C1B /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7363FB0263AF13200513C1B /* PasswordResetViewController.swift */; };
 		D7363FB3263AF33600513C1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7363FB2263AF33600513C1B /* GoogleService-Info.plist */; };
 		E263C129C31BF633AA8E2705 /* Pods_Cafe_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5589B8348C34827F047C00 /* Pods_Cafe_Manager.framework */; };
 /* End PBXBuildFile section */
@@ -23,6 +23,7 @@
 /* Begin PBXFileReference section */
 		1E5589B8348C34827F047C00 /* Pods_Cafe_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cafe_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8A37BE6A9F1599A832F804 /* Pods-Cafe-Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-Manager.debug.xcconfig"; path = "Target Support Files/Pods-Cafe-Manager/Pods-Cafe-Manager.debug.xcconfig"; sourceTree = "<group>"; };
+		D7241715263C83C600A4A96B /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
 		D7363F90263AC37E00513C1B /* Cafe-Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cafe-Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7363F93263AC37E00513C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7363F95263AC37E00513C1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		D7363FA1263AC38000513C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7363FAA263AC5D400513C1B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D7363FAC263AC5EC00513C1B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		D7363FB0263AF13200513C1B /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
 		D7363FB2263AF33600513C1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E7CA901CF1D23E66CB12E30E /* Pods-Cafe-Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-Manager.release.xcconfig"; path = "Target Support Files/Pods-Cafe-Manager/Pods-Cafe-Manager.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,7 +122,7 @@
 			children = (
 				D7363FAA263AC5D400513C1B /* LoginViewController.swift */,
 				D7363FAC263AC5EC00513C1B /* RegisterViewController.swift */,
-				D7363FB0263AF13200513C1B /* PasswordResetViewController.swift */,
+				D7241715263C83C600A4A96B /* ResetViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -244,10 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7363FAB263AC5D400513C1B /* LoginViewController.swift in Sources */,
-				D7363FB1263AF13200513C1B /* PasswordResetViewController.swift in Sources */,
 				D7363FAD263AC5EC00513C1B /* RegisterViewController.swift in Sources */,
 				D7363F98263AC37E00513C1B /* ViewController.swift in Sources */,
 				D7363F94263AC37E00513C1B /* AppDelegate.swift in Sources */,
+				D7241716263C83C600A4A96B /* ResetViewController.swift in Sources */,
 				D7363F96263AC37E00513C1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

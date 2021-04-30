@@ -16,6 +16,12 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var password: UITextField!
     
     @IBAction func BtnRegister(_ sender: UIButton) {
+        if email.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || password.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || phone.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
+        {
+            let alert = UIAlertController(title: "Error", message: "All fields required", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)}
+        else{
         if let email = email.text, let password = password.text {
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                 if let e = error {
@@ -37,5 +43,5 @@ class RegisterViewController: UIViewController {
             }
         }
     }
-    
+    }
 }
