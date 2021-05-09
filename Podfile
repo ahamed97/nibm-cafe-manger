@@ -6,8 +6,11 @@ target 'Cafe-Manager' do
   use_frameworks!
 
   # Pods for Cafe-Manager
-  pod 'Firebase/Auth'
-  pod 'GeoFire'
-  pod 'Firebase/Firestore'
+   pod 'Firebase/Auth'
+   pod 'Firebase/Database'
+   pod 'iOSDropDown'
+   pod 'Firebase/Storage'
+   pod 'NotificationBannerSwift'
+   pod 'Kingfisher', '~> 6.0.0'
 
 end
