@@ -374,25 +374,6 @@
             <point key="canvasLocation" x="2187" y="-581"/>
         </scene>
         <!--Item-->
-        <scene sceneID="YZZ-Gd-d7p">
-            <objects>
-                <viewController id="K1R-GI-viQ" customClass="CategoryViewController" customModule="Cafe_Manager" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gUE-Sy-Vrn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="eZL-I7-FRk"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="1lE-Eg-mFR"/>
-                    <connections>
-                        <outlet property="txtCategory" destination="QVu-hT-nJ6" id="gIv-H3-KY4"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JFc-kF-y80" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1007" y="1578"/>
-        </scene>
-        <!--Item-->
         <scene sceneID="S3c-3V-ask">
             <objects>
                 <viewController id="Rwb-nf-ANB" customClass="CategoryViewController" customModule="Cafe_Manager" customModuleProvider="target" sceneMemberID="viewController">
@@ -416,7 +397,6 @@
                                 <connections>
                                     <action selector="BtnPReset:" destination="dK1-L6-b03" eventType="touchUpInside" id="III-MS-6cQ"/>
                                     <action selector="btnAddCategory:" destination="Rwb-nf-ANB" eventType="touchUpInside" id="9EG-zk-ZkD"/>
-                                    <action selector="btnAddCategory:" destination="K1R-GI-viQ" eventType="touchUpInside" id="XJo-np-48Z"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oaU-ay-hn5">
@@ -562,7 +542,6 @@
                                                     <action selector="BtnPReset:" destination="dK1-L6-b03" eventType="touchUpInside" id="wwj-Bo-XrC"/>
                                                     <action selector="addItem:" destination="Sfn-lt-lgo" eventType="touchUpInside" id="QnR-SO-2Vu"/>
                                                     <action selector="btnAddCategory:" destination="Rwb-nf-ANB" eventType="touchUpInside" id="5YH-Sr-WZz"/>
-                                                    <action selector="btnAddCategory:" destination="K1R-GI-viQ" eventType="touchUpInside" id="GkI-HF-Exe"/>
                                                 </connections>
                                             </button>
                                         </subviews>
