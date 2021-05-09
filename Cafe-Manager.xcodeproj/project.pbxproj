@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D707AF71263FEF9300129425 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707AF70263FEF9300129425 /* StoreViewController.swift */; };
 		D707AF77263FFE8B00129425 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707AF76263FFE8B00129425 /* ImageFetcher.swift */; };
-		D707AF79263FFEAB00129425 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707AF78263FFEAB00129425 /* SessionManager.swift */; };
 		D707AF7B26400DA800129425 /* EntityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707AF7A26400DA800129425 /* EntityModel.swift */; };
 		D720E5C426479597004EE42C /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720E5C326479597004EE42C /* OrderViewController.swift */; };
 		D721863A2644D81E00C9E841 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72186392644D81E00C9E841 /* CategoryViewController.swift */; };
@@ -35,7 +34,6 @@
 		8C8A37BE6A9F1599A832F804 /* Pods-Cafe-Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-Manager.debug.xcconfig"; path = "Target Support Files/Pods-Cafe-Manager/Pods-Cafe-Manager.debug.xcconfig"; sourceTree = "<group>"; };
 		D707AF70263FEF9300129425 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		D707AF76263FFE8B00129425 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
-		D707AF78263FFEAB00129425 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = "../../../CafeManager-main/CafeManager/Util/SessionManager.swift"; sourceTree = "<group>"; };
 		D707AF7A26400DA800129425 /* EntityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityModel.swift; sourceTree = "<group>"; };
 		D720E5C326479597004EE42C /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		D72186392644D81E00C9E841 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 			children = (
 				D724BEB4264696CC00245C7E /* Cell */,
 				D707AF76263FFE8B00129425 /* ImageFetcher.swift */,
-				D707AF78263FFEAB00129425 /* SessionManager.swift */,
 				D7363FA9263AC5A300513C1B /* Controller */,
 				D7363FA8263AC59600513C1B /* View */,
 				D7363FA7263AC58600513C1B /* Model */,
@@ -295,7 +292,6 @@
 				D7241716263C83C600A4A96B /* ResetViewController.swift in Sources */,
 				D720E5C426479597004EE42C /* OrderViewController.swift in Sources */,
 				D724BEBA2646988200245C7E /* ItemListViewController.swift in Sources */,
-				D707AF79263FFEAB00129425 /* SessionManager.swift in Sources */,
 				D7363F96263AC37E00513C1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
