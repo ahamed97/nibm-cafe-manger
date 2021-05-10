@@ -33,7 +33,7 @@ let ref = Database.database().reference()
     
     func filterOrders(status: Int) {
         filteredOrders.removeAll()
-        filteredOrders = self.orders.filter {$0.status_code == status}
+        filteredOrders = self.orders.filter {$0.status_code != status}
         tblOrders.reloadData()
     }
     
@@ -74,7 +74,7 @@ let ref = Database.database().reference()
                     }
                     
                     self.filteredOrders.append(contentsOf: self.orders)
-                    self.filterOrders(status: 0)
+                    self.filterOrders(status: 5)
                 } else {
                     let alert = UIAlertController(title: "Info", message: "No Orders", preferredStyle: UIAlertController.Style.alert)
                     alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
