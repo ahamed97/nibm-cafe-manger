@@ -54,7 +54,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="cA8-ft-cxS" secondAttribute="trailing" constant="10" id="1mY-J5-uQK"/>
                             <constraint firstItem="cA8-ft-cxS" firstAttribute="top" secondItem="lz6-Tz-TdP" secondAttribute="bottom" constant="5" id="86z-NH-VgZ"/>
@@ -72,6 +72,7 @@
                         </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
+                <color key="backgroundColor" red="0.89523483810000004" green="0.93088901329999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
                     <constraint firstItem="gDK-Is-dml" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="2vn-W5-B8o"/>
                     <constraint firstAttribute="trailing" secondItem="gDK-Is-dml" secondAttribute="trailing" id="eHv-Wc-CSQ"/>

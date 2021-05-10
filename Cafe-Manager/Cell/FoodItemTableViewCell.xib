@@ -66,7 +66,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="w4v-Zs-0EM" firstAttribute="leading" secondItem="bF6-cn-f4l" secondAttribute="trailing" constant="10" id="5X3-CL-2UX"/>
                             <constraint firstAttribute="trailing" secondItem="w4v-Zs-0EM" secondAttribute="trailing" constant="10" id="Bdm-6G-DcF"/>
@@ -78,6 +78,7 @@
                         </constraints>
                     </view>
                 </subviews>
+                <color key="backgroundColor" red="0.89523483810000004" green="0.93088901329999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="N0N-tG-QGt" secondAttribute="trailing" id="Acy-Fv-jNE"/>
                     <constraint firstItem="N0N-tG-QGt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="NJX-OI-FU4"/>

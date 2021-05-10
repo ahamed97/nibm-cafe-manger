@@ -15,6 +15,8 @@
 		D71F14D3264927BE00C57552 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F14D1264927BE00C57552 /* AccountTableViewCell.swift */; };
 		D71F14D4264927BE00C57552 /* AccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71F14D2264927BE00C57552 /* AccountTableViewCell.xib */; };
 		D71F14D82649310F00C57552 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F14D72649310F00C57552 /* AccountViewController.swift */; };
+		D71F14E02649916F00C57552 /* Cafe_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F14DF2649916F00C57552 /* Cafe_ManagerTests.swift */; };
+		D71F14E82649921000C57552 /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F14E72649921000C57552 /* LoginFlow.swift */; };
 		D720E5C426479597004EE42C /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720E5C326479597004EE42C /* OrderViewController.swift */; };
 		D721863A2644D81E00C9E841 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72186392644D81E00C9E841 /* CategoryViewController.swift */; };
 		D7241716263C83C600A4A96B /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7241715263C83C600A4A96B /* ResetViewController.swift */; };
@@ -34,6 +36,16 @@
 		E263C129C31BF633AA8E2705 /* Pods_Cafe_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5589B8348C34827F047C00 /* Pods_Cafe_Manager.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D71F14E22649916F00C57552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7363F88263AC37E00513C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7363F8F263AC37E00513C1B;
+			remoteInfo = "Cafe-Manager";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1E5589B8348C34827F047C00 /* Pods_Cafe_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cafe_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8A37BE6A9F1599A832F804 /* Pods-Cafe-Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-Manager.debug.xcconfig"; path = "Target Support Files/Pods-Cafe-Manager/Pods-Cafe-Manager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +57,10 @@
 		D71F14D1264927BE00C57552 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
 		D71F14D2264927BE00C57552 /* AccountTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountTableViewCell.xib; sourceTree = "<group>"; };
 		D71F14D72649310F00C57552 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		D71F14DD2649916E00C57552 /* Cafe-ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cafe-ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71F14DF2649916F00C57552 /* Cafe_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe_ManagerTests.swift; sourceTree = "<group>"; };
+		D71F14E12649916F00C57552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71F14E72649921000C57552 /* LoginFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlow.swift; sourceTree = "<group>"; };
 		D720E5C326479597004EE42C /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		D72186392644D81E00C9E841 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		D7241715263C83C600A4A96B /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +83,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D71F14DA2649916E00C57552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7363F8D263AC37E00513C1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +118,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D71F14DE2649916E00C57552 /* Cafe-ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D71F14DF2649916F00C57552 /* Cafe_ManagerTests.swift */,
+				D71F14E12649916F00C57552 /* Info.plist */,
+				D71F14E72649921000C57552 /* LoginFlow.swift */,
+			);
+			path = "Cafe-ManagerTests";
+			sourceTree = "<group>";
+		};
 		D724BEB4264696CC00245C7E /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				D7363F92263AC37E00513C1B /* Cafe-Manager */,
+				D71F14DE2649916E00C57552 /* Cafe-ManagerTests */,
 				D7363F91263AC37E00513C1B /* Products */,
 				2578D062244D2F14D853FDD3 /* Pods */,
 				466FAC6A712956082438CDA4 /* Frameworks */,
@@ -122,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				D7363F90263AC37E00513C1B /* Cafe-Manager.app */,
+				D71F14DD2649916E00C57552 /* Cafe-ManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +215,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D71F14DC2649916E00C57552 /* Cafe-ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71F14E62649916F00C57552 /* Build configuration list for PBXNativeTarget "Cafe-ManagerTests" */;
+			buildPhases = (
+				D71F14D92649916E00C57552 /* Sources */,
+				D71F14DA2649916E00C57552 /* Frameworks */,
+				D71F14DB2649916E00C57552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D71F14E32649916F00C57552 /* PBXTargetDependency */,
+			);
+			name = "Cafe-ManagerTests";
+			productName = "Cafe-ManagerTests";
+			productReference = D71F14DD2649916E00C57552 /* Cafe-ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D7363F8F263AC37E00513C1B /* Cafe-Manager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7363FA4263AC38000513C1B /* Build configuration list for PBXNativeTarget "Cafe-Manager" */;
@@ -209,6 +262,10 @@
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = dev;
 				TargetAttributes = {
+					D71F14DC2649916E00C57552 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D7363F8F263AC37E00513C1B;
+					};
 					D7363F8F263AC37E00513C1B = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -228,11 +285,19 @@
 			projectRoot = "";
 			targets = (
 				D7363F8F263AC37E00513C1B /* Cafe-Manager */,
+				D71F14DC2649916E00C57552 /* Cafe-ManagerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D71F14DB2649916E00C57552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7363F8E263AC37E00513C1B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,6 +357,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D71F14D92649916E00C57552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71F14E02649916F00C57552 /* Cafe_ManagerTests.swift in Sources */,
+				D71F14E82649921000C57552 /* LoginFlow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7363F8C263AC37E00513C1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,6 +392,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D71F14E32649916F00C57552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7363F8F263AC37E00513C1B /* Cafe-Manager */;
+			targetProxy = D71F14E22649916F00C57552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		D7363F99263AC37E00513C1B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -338,6 +420,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D71F14E42649916F00C57552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cafe-ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.fyz.Cafe-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cafe-Manager.app/Cafe-Manager";
+			};
+			name = Debug;
+		};
+		D71F14E52649916F00C57552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cafe-ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.fyz.Cafe-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cafe-Manager.app/Cafe-Manager";
+			};
+			name = Release;
+		};
 		D7363FA2263AC38000513C1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -491,6 +611,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D71F14E62649916F00C57552 /* Build configuration list for PBXNativeTarget "Cafe-ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71F14E42649916F00C57552 /* Debug */,
+				D71F14E52649916F00C57552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D7363F8B263AC37E00513C1B /* Build configuration list for PBXProject "Cafe-Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
