@@ -40,6 +40,12 @@ class ItemViewController: UIViewController {
     }
     
     @IBAction func addItem(_ sender: UIButton) {
+        if txtFoodName.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || txtDescription.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
+        {
+            let alert = UIAlertController(title: "Error", message: "All fields required", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)}
+        
         let foodItem = FoodItem(
             _id: "",
             foodName: txtFoodName.text ?? "",
