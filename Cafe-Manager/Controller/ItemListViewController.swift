@@ -22,12 +22,12 @@ class ItemListViewController: UIViewController,UITableViewDataSource, UITableVie
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
-    // number of rows in table view
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.FoodItemList.count
     }
     
-    // create a cell for each table view row
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tblFoodItems.dequeueReusableCell(withIdentifier: FoodItemTableViewCell.reuseIdentifier, for: indexPath) as! FoodItemTableViewCell
@@ -43,6 +43,9 @@ class ItemListViewController: UIViewController,UITableViewDataSource, UITableVie
         tblFoodItems.register(UINib(nibName: FoodItemTableViewCell.nibName, bundle: nil), forCellReuseIdentifier: FoodItemTableViewCell.reuseIdentifier)
         tblFoodItems.delegate = self
         tblFoodItems.dataSource = self
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         self.refreshFoodItems()
     }
     

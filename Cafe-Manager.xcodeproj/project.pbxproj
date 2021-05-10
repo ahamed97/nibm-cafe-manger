@@ -10,6 +10,8 @@
 		D707AF71263FEF9300129425 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707AF70263FEF9300129425 /* StoreViewController.swift */; };
 		D707AF77263FFE8B00129425 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707AF76263FFE8B00129425 /* ImageFetcher.swift */; };
 		D707AF7B26400DA800129425 /* EntityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707AF7A26400DA800129425 /* EntityModel.swift */; };
+		D71F14CF2647DF4E00C57552 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71F14CD2647DF4E00C57552 /* OrderTableViewCell.xib */; };
+		D71F14D02647DF4E00C57552 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F14CE2647DF4E00C57552 /* OrderTableViewCell.swift */; };
 		D720E5C426479597004EE42C /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720E5C326479597004EE42C /* OrderViewController.swift */; };
 		D721863A2644D81E00C9E841 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72186392644D81E00C9E841 /* CategoryViewController.swift */; };
 		D7241716263C83C600A4A96B /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7241715263C83C600A4A96B /* ResetViewController.swift */; };
@@ -35,6 +37,8 @@
 		D707AF70263FEF9300129425 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		D707AF76263FFE8B00129425 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
 		D707AF7A26400DA800129425 /* EntityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityModel.swift; sourceTree = "<group>"; };
+		D71F14CD2647DF4E00C57552 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OrderTableViewCell.xib; path = "../../../../../Documents/CafeManager-main/CafeManager/TableViewCells/OrderTableViewCell.xib"; sourceTree = "<group>"; };
+		D71F14CE2647DF4E00C57552 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
 		D720E5C326479597004EE42C /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		D72186392644D81E00C9E841 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		D7241715263C83C600A4A96B /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 			children = (
 				D724BEB5264696F300245C7E /* FoodItemTableViewCell.swift */,
 				D724BEB6264696F400245C7E /* FoodItemTableViewCell.xib */,
+				D71F14CE2647DF4E00C57552 /* OrderTableViewCell.swift */,
+				D71F14CD2647DF4E00C57552 /* OrderTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -222,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71F14CF2647DF4E00C57552 /* OrderTableViewCell.xib in Resources */,
 				D7363FA0263AC38000513C1B /* LaunchScreen.storyboard in Resources */,
 				D7363F9D263AC38000513C1B /* Assets.xcassets in Resources */,
 				D7363FB3263AF33600513C1B /* GoogleService-Info.plist in Resources */,
@@ -285,6 +292,7 @@
 				D7363FAD263AC5EC00513C1B /* RegisterViewController.swift in Sources */,
 				D724BEB32646856300245C7E /* ItemViewController.swift in Sources */,
 				D707AF77263FFE8B00129425 /* ImageFetcher.swift in Sources */,
+				D71F14D02647DF4E00C57552 /* OrderTableViewCell.swift in Sources */,
 				D721863A2644D81E00C9E841 /* CategoryViewController.swift in Sources */,
 				D7363F98263AC37E00513C1B /* ViewController.swift in Sources */,
 				D7363F94263AC37E00513C1B /* AppDelegate.swift in Sources */,
